@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Learn how to design accessible and SEO-friendly websites using HTML5 semantic elements, proper structure, and best practices for inclusivity and discoverability." />
+  <title>Designing Accessible and SEO-Friendly Websites with HTML5</title>
+</head>
+<body>
+
+  <header role="banner">
+    <h1>Designing Accessible and SEO-Friendly Websites with HTML5</h1>
+    <p>A guide to building inclusive, discoverable, and well-structured web pages</p>
+
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="#introduction">Introduction</a></li>
+        <li><a href="#semantic-html">Semantic HTML5</a></li>
+        <li><a href="#accessibility">Accessibility Best Practices</a></li>
+        <li><a href="#seo-basics">SEO Fundamentals</a></li>
+        <li><a href="#conclusion">Conclusion</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="introduction">
+      <h2>Introduction</h2>
+      <p>Creating websites today means more than just making them look good. A well-designed website must be <strong>accessible to all users</strong>, including those using screen readers or keyboard navigation, and <strong>optimized for search engines</strong> so it can be easily discovered online.</p>
+      <p>HTML5 provides powerful semantic elements and accessibility features that help developers achieve both goals from the very foundation of their code.</p>
+    </section>
+
+    <section id="semantic-html">
+      <h2>Semantic HTML5: Structure with Meaning</h2>
+      <p>Semantic elements clearly describe their purpose to both the browser and the developer. Using them improves code readability and supports assistive technologies.</p>
+
+      <article>
+        <h3>Why Use Semantic Tags?</h3>
+        <p>Instead of generic <code><div></code> tags, HTML5 offers elements like:</p>
+        <ul>
+          <li><code><header></code> – for introductory content or navigation</li>
+          <li><code><nav></code> – for navigation links</li>
+          <li><code><main></code> – for the primary content of the page</li>
+          <li><code><section></code> – for thematic groupings of content</li>
+          <li><code><article></code> – for self-contained compositions</li>
+          <li><code><aside></code> – for tangentially related content</li>
+          <li><code><footer></code> – for closing content like author info or links</li>
+        </ul>
+        <p>These help screen readers navigate and search engines understand your content hierarchy.</p>
+      </article>
+    </section>
+
+    <section id="accessibility">
+      <h2>Accessibility Best Practices</h2>
+      <p>Web accessibility ensures that people with disabilities can perceive, understand, navigate, and interact with your website.</p>
+
+      <article>
+        <h3>Key Accessibility Features in HTML5</h3>
+        <ul>
+          <li>Use <strong>proper heading order</strong> (<code>h1</code> to <code>h6</code>) to create a logical outline.</li>
+          <li>Add <strong>alternative text</strong> to images using the <code>alt</code> attribute.</li>
+          <li>Use <strong>ARIA landmarks</strong> (like <code>aria-label</code>) when needed to clarify context.</li>
+          <li>Ensure all interactive elements are <strong>keyboard navigable</strong>.</li>
+          <li>Provide <strong>descriptive link text</strong> (avoid "click here").</li>
+        </ul>
+        <p>Example: A screen reader user can jump between sections using landmarks like <code><main></code> or navigation labeled with <code>aria-label</code>.</p>
+      </article>
+    </section>
+
+    <section id="seo-basics">
+      <h2>SEO Fundamentals with HTML5</h2>
+      <p>Search Engine Optimization (SEO) helps your website appear in search results. Good HTML structure is a critical part of on-page SEO.</p>
+
+      <article>
+        <h3>How HTML5 Improves SEO</h3>
+        <ul>
+          <li><strong>Clear heading hierarchy</strong>: Search engines use headings to understand content structure.</li>
+          <li><strong>Descriptive page title and meta description</strong>: These appear in search results and influence click-through rates.</li>
+          <li><strong>Semantic markup</strong>: Helps search engines identify important content blocks.</li>
+          <li><strong>Fast, clean code</strong>: Semantic HTML reduces clutter and improves parsing speed.</li>
+        </ul>
+        <p>By writing meaningful HTML, you make your site more understandable to both users and crawlers.</p>
+      </article>
+    </section>
+
+    <section id="conclusion">
+      <h2>Conclusion</h2>
+      <p>Designing accessible and SEO-friendly websites starts with writing thoughtful, semantic HTML5. By using the right elements for the right purpose, you create a strong foundation that supports inclusivity, usability, and visibility.</p>
+      <p>Start with structure. Prioritize accessibility. Optimize for clarity. The web works best when everyone can use it.</p>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <p>&copy; <time datetime="2025">2025</time> — Educational Resource on HTML5, Accessibility, and SEO</p>
+    <p><a href="#top">Back to top</a></p>
+  </footer>
+
+</body>
+</html>
